@@ -1,7 +1,7 @@
 /* 
  created by Aven in class with student,2016, April 14
  "make design interact", week 03, second class
- you can find more info (like students' work and syllybus) about this class at makedesigninteract.wordpress.com
+ you can find more info (like students' work and syllabus) about this class at makedesigninteract.wordpress.com
  */
 
 float d = 50, x = 26, y=26, r =0, g=0, b=0, xPlus =5, yPlus =5, rPlus =5, gPlus =5, bPlus =5;

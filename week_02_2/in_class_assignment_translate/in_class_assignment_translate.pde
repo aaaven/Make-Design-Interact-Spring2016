@@ -1,7 +1,7 @@
 /* 
 created by Aven in class with student, 2016, April 7
 "make design interact", week 02, second class
-you can find more info (like students' work and syllybus) about this class at makedesigninteract.wordpress.com
+you can find more info (like students' work and syllabus) about this class at makedesigninteract.wordpress.com
 */
 
 float sunR = 0;
