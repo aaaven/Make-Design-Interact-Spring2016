@@ -1,19 +1,15 @@
 
 /*create by Aven at April 17th for make design interact,
 you can find more about this class on makedesigninteract.wordpress.com*/
-
 int pushButton = 2;
 int knob = 8;
 int buttonState = 0;
 int yellow = 3;
 int green = 4;
 int blue = 5;
-
-
 void setup() {
   // initialize serial communication at 9600 bits per second:
   Serial.begin(9600);
-
   // make the pushbutton's pin an input:
   pinMode(pushButton, INPUT);
   //make the yellow,green,blue,(3,4,5) pin as output:
