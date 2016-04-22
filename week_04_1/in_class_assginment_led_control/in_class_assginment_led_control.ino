@@ -14,10 +14,18 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   int buttonStatus = digitalRead(button);
-  Serial.println(buttonStatus);
+  int knob = analogRead(A0)/4;
+  Serial.println(knob);
+  analogWrite(blue,knob);
   if(buttonStatus == 0){
-    Serial.println("button off");
+    //Serial.println("button off");
+    //light up yellow
+    digitalWrite(yellow,HIGH);
+    digitalWrite(green,LOW);
   }else{
-    Serial.println("button on");
+    //Serial.println("button on");
+    //light up green
+    digitalWrite(green,HIGH);
+    digitalWrite(yellow,LOW);
   }
 }
